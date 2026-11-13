@@ -12,9 +12,13 @@ Vận dụng cơ bản 2: Khắc phục lỗi rò rỉ dữ liệu mật khi cha
 sửa lại đoạn code trên bằng cách thay thế thông tin mật thành các biến tượng trưng:
 
 def connect_database():
-    db_password = '[YOUR_DATABASE_PASSWORD]'
-    api_key = '[YOUR_API_KEY]'
-    print('Đang kết nối...')
+
+   db_password = '[YOUR_DATABASE_PASSWORD]'
+
+   api_key = '[YOUR_API_KEY]'
+
+   print('Đang kết nối...')
+
 
 Viết prompt gửi kèm đoạn code đã làm sạch này lên AI để nhờ tối ưu:
 
@@ -22,7 +26,10 @@ Tôi đang có một hàm Python dùng để kết nối cơ sở dữ liệu v�
 
 Python
 def connect_database():
-    db_password = '[YOUR_DATABASE_PASSWORD]'
-    api_key = '[YOUR_API_KEY]'
-    print('Đang kết nối...')
+
+   db_password = '[YOUR_DATABASE_PASSWORD]'
+   
+   api_key = '[YOUR_API_KEY]'
+   
+   print('Đang kết nối...')
 
